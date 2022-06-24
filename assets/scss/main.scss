@@ -57,9 +57,9 @@ body {
             text-transform: capitalize;
         }
 
-        &--secondBr{
-            display: none;
-        }
+         &--firstheading br:nth-child(2){
+                display:none;
+            }
 
         &--paragraph {
             font-size: 0.88rem;
@@ -149,10 +149,10 @@ body {
                 display: none;
             }
 
-            &--secondBr{
-            display: block;
-        }
-
+            &--firstheading br:nth-child(2){
+                display:block;
+            }
+       
             &--paragraph {
                 font-size: 0.95rem;
                 line-height: 1.5rem;
