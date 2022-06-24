@@ -57,6 +57,10 @@ body {
             text-transform: capitalize;
         }
 
+        &--secondBr{
+            display: none;
+        }
+
         &--paragraph {
             font-size: 0.88rem;
             color: var(--Dark-grayish-blue);
@@ -144,6 +148,10 @@ body {
             &--firstheading br {
                 display: none;
             }
+
+            &--secondBr{
+            display: block;
+        }
 
             &--paragraph {
                 font-size: 0.95rem;
