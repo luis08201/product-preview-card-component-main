@@ -57,9 +57,9 @@ body {
             text-transform: capitalize;
         }
 
-         &--firstheading br:nth-child(2){
-                display:none;
-            }
+        &--firstheading br:nth-of-type(2) {
+            display: none;
+        }
 
         &--paragraph {
             font-size: 0.88rem;
@@ -136,7 +136,7 @@ body {
                 gap: 21px;
             }
 
-            &--title{
+            &--title {
                 letter-spacing: 3px;
                 font-size: 0.88rem;
             }
@@ -149,10 +149,10 @@ body {
                 display: none;
             }
 
-            &--firstheading br:nth-child(2){
-                display:block;
+            &--firstheading br:nth-of-type(2) {
+                display: none;
             }
-       
+
             &--paragraph {
                 font-size: 0.95rem;
                 line-height: 1.5rem;

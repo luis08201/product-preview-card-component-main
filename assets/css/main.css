@@ -78,6 +78,9 @@ body {
   font-family: var(--Fraunces);
   text-transform: capitalize;
 }
+.card__description--firstheading br:nth-of-type(2) {
+  display: none;
+}
 .card__description--paragraph {
   font-size: 0.88rem;
   color: var(--Dark-grayish-blue);
@@ -151,6 +154,9 @@ body {
     width: 213px;
   }
   .card__description--firstheading br {
+    display: none;
+  }
+  .card__description--firstheading br:nth-of-type(2) {
     display: none;
   }
   .card__description--paragraph {
